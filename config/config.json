@@ -1,0 +1,13 @@
+{
+  "server" : {
+    "host": "localhost",
+    "port": 8080
+  },
+  "elasticsearch" : {
+    "cluster_address": "localhost:9200"
+  },
+  "prometheus": {
+    "port": 8090,
+    "endpoint": "/metrics"
+  }
+}
